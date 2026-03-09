@@ -55,6 +55,9 @@ UVS_IGNORE_TLS=false
 # If `true`, enables request logging for the /health endpoint.
 # Defaults to `false` to reduce log noise from health checks.
 UVS_LOG_HEALTH=false
+# Log format: 'json' (default), 'json-logstash', or 'pretty'.
+# Use 'pretty' for local development, 'json' or 'json-logstash' for production.
+UVS_LOG_FORMAT=json
 ```
 
 #### OpenID token verification
