@@ -52,6 +52,9 @@ UVS_LOG_LEVEL=info
 # Defaults to `false`. Set to `true` if your homeserver has a self-signed certificate or other TLS issues.
 # Should only be set to `true` if you understand the security implications of doing so.
 UVS_IGNORE_TLS=false
+# If `true`, enables request logging for the /health endpoint.
+# Defaults to `false` to reduce log noise from health checks.
+UVS_LOG_HEALTH=false
 ```
 
 #### OpenID token verification
